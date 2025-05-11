@@ -1,9 +1,9 @@
 # Mini_CRM_platform
-# ???? Mini CRM Platform
+# 📊Mini CRM Platform
 
 Lightweight CRM platform with customer segmentation, personalized campaign delivery, and AI-driven insights.
 
-## ???? Features
+## 🚀 Features
 
 - **Data Ingestion APIs**: Customer and order secure REST APIs.
 - **Campaign Creation UI**: Dynamic rule builder with audience preview.
@@ -11,7 +11,7 @@ Lightweight CRM platform with customer segmentation, personalized campaign deliv
 - **Authentication**: Google OAuth 2.0 integration.
 - **AI Integration**: Natural language to segment rules conversion.
 
-## ????️ Tech Stack
+## 🛠️Tech Stack
 
 - **Frontend**: React.js / Next.js
 - **Backend**: Node.js (Express)
@@ -19,7 +19,7 @@ Lightweight CRM platform with customer segmentation, personalized campaign deliv
 - **Message Broker**: Redis Streams
 - **AI Services**: OpenAI GPT-4 API
 
-## ???? Architecture
+## 🧱 Architecture
 
 ```mermaid
 graph TD
