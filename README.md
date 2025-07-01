@@ -20,16 +20,6 @@ Lightweight CRM platform with customer segmentation, personalized campaign deliv
 - **AI Services**: OpenAI GPT-4 API
 
 ## 🧱 Architecture
-
-```mermaid
-graph TD
-A[Client (React/Next.js)] -->|REST API| B[API Gateway (Express.js)]
-B -->|Validate & Enqueue| C[Redis Streams]
-C -->|Consume & Persist| D[MongoDB]
-B -->|Auth| E[Google OAuth 2.0]
-B -->|Trigger| F[Campaign Service]
-F -->|Send Messages| G[Vendor API Simulator]
-```
 G -->|Delivery Receipt| H[Delivery Receipt API]
 H -->|Update Status| D
 B -->|AI Request| I[OpenAI API]
